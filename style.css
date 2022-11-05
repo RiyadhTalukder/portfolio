@@ -11,8 +11,9 @@ h1 {
     color: rgb(255, 115, 0);
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .halfwidth {
@@ -43,4 +44,35 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 10%;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 40px rgb(177, 167, 187);
+    margin: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.exp-sec {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50px;
+}
+
+#wex {
+    border-left: 7px solid;
+    border-image: repeating-linear-gradient(30deg, #26d2c0, #f3504bdf) 60;
+    border-image-slice: 1;
+}
+
+#wex2 {
+    border-left: 7px solid;
+    border-image: repeating-linear-gradient(30deg, #f3504bdf, #26d2c0) 60;
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: black;
 }
