@@ -27,7 +27,7 @@ section {
 .linkbutton {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 7px 11px;
+    padding: 5px 11px;
     font-weight: 700;
     color: white;
     border-radius: 5px;
@@ -36,4 +36,11 @@ section {
 .top-banner {
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dreambig {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10%;
 }
